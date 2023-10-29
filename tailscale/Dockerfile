@@ -2,12 +2,12 @@ ARG BUILD_ARCH
 FROM homeassistant/${BUILD_ARCH}-base-debian:latest
 
 ARG BUILD_ARCH
-ARG TAILSCALE_VERSION="1.36.2"
+ARG TAILSCALE_VERSION="1.50.1"
 
 ENV LANG C.UTF-8
 
 RUN apt update
-RUN apt install -y wget iptables iproute2 procps
+RUN apt install -y wget iptables iproute2 procps iputils-ping
 
 # Use legacy iptables not nftables, see https://wiki.debian.org/iptables
 RUN update-alternatives --set iptables /usr/sbin/iptables-legacy

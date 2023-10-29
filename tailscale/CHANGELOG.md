@@ -1,5 +1,65 @@
 # Changelog
 
+## 1.50.1.0
+- Tailscale package updated to version `1.50.1`
+
+## 1.50.0.0
+- Tailscale package updated to version `1.50.0`
+
+## 1.48.2.0
+- Tailscale package updated to version `1.48.2`
+
+## 1.48.1.0
+- Tailscale package updated to version `1.48.1`
+
+## 1.48.0.0
+- Tailscale package updated to version `1.48.0`
+
+## 1.46.1.0
+- Tailscale package updated to version `1.46.1`
+
+## 1.46.0.0
+- Tailscale package updated to version `1.46.0`
+
+## 1.44.2.0
+- Tailscale package updated to version `1.44.2`
+
+## 1.44.0.0
+- Tailscale package updated to version `1.44.0`
+
+## 1.42.0.0
+- Tailscale package updated to version `1.42.0`
+
+## 1.40.1.0
+- Tailscale package updated to version `1.40.1`
+
+## 1.40.0.0
+- Tailscale package updated to version `1.40.0`
+
+## 1.38.4.0
+- Tailscale package updated to version `1.38.4`
+
+## 1.38.3.0
+- Tailscale package updated to version `1.38.3`
+
+## 1.38.2.0
+- Tailscale package updated to version `1.38.2`
+
+## 1.38.1.0
+- Tailscale package updated to version `1.38.1`
+
+## 1.36.2.3
+- Adds `disable_snat_subnet_routes` option
+
+## 1.36.2.2
+
+- Sets Userspace Networking as a default in new add-on installations. This appears to be the most compatible
+  option out-of-the-box for most users.
+
+## 1.36.2.1
+
+- Adds `ping` package to Tailscale container
+
 ## 1.36.2.0
 
 - Tailscale package updated to version `1.36.2`
